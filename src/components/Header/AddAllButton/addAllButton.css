@@ -1,0 +1,17 @@
+.addallbuttonbox {
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+  border: 1px solid rgb(145, 142, 142);
+}
+
+.addallbuttonbox:hover {
+  background-color: #b8b8b8;
+}
+
+.addallbuttonbox:active {
+  background-color: #bcc3e2;
+}
+
+

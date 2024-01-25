@@ -1,0 +1,49 @@
+.filter-container {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+  }
+  
+  label {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  .filterbox {
+    padding-left: 30px;
+    border-radius: 20px;
+    height: 30px;
+    margin: 5px;
+    transition: background-color 0.3s;
+    border: 1px solid rgb(145, 142, 142);
+  }
+  
+  .filterbox:hover {
+    background-color: #b8b8b8;
+  }
+  
+  .filterbox:active {
+    background-color: #bcc3e2;
+  }
+  
+  @media (max-width: 600px) {
+    .filter-container {
+      position: static;
+      text-align: center;
+    }
+  
+    label {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  
+    .filterbox {
+      padding-left: 10px;
+    }
+  }
+  

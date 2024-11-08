@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SongList from "./components/SongList/songList";
 import Header from './components/Header/header';
-import MusicUploadForm from './components/MusicUploadForm/musicUploadForm';
+import MusicUploadForm from './components/Header/MusicUploadForm/musicUploadForm';
 import list from "./music_data/music_list";
 import './App.css';
 
